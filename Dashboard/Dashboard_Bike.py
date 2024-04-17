@@ -106,8 +106,8 @@ def create_rfm_rent(rent_data):
 
 
 
-hour_data = pd.read_csv("hour.csv")
-day_data = pd.read_csv("day.csv")
+hour_data = pd.read_csv('https://drive.google.com/file/d/1k6qQMh3absBLptReESY-j4Bq4MZIf7Gb/view?usp=drive_link')
+day_data = pd.read_csv('https://drive.google.com/file/d/1ddnzdxqXKohMdAKRHpV33AFW6-wWa59_/view?usp=drive_link')
 
 
 # Filter komponen (datetime (dteday))
@@ -124,7 +124,7 @@ max_date = hour_data["dteday"].max()
  
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("logo_bike.png")
+    st.image('https://drive.google.com/file/d/19DO7qEOejCcUUFg43vJn_Ea1BuLRhJcA/view?usp=drive_link')
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
