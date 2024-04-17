@@ -124,7 +124,7 @@ max_date = hour_data["dteday"].max()
  
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image('https://github.com/filasofiya19/Bike-Sharing-Data-Analysis/blob/main/Dashboard/logo_bike.png')
+    st.image('https://github.com/filasofiya19/Bike-Sharing-Data-Analysis/blob/main/Dashboard/logo_bike.png?raw=true')
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
