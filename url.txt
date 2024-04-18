@@ -1,1 +1,1 @@
-https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app
+https://bike-sharing-data-analysis-59wlkn4sv5rzexvgaauizt.streamlit.app/
